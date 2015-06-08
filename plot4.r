@@ -42,6 +42,6 @@ legend("topright", lty = c(1, 1, 1), col = c("black", "red", "blue"), bty = "n",
 plot(datetime, power_2day$Global_reactive_power, type = "l", ylab = "Global_reactive_power")
 
 
-dev.copy(png, file = "plot5.png")
+dev.copy(png, file = "plot4.png")
 dev.off()
 
